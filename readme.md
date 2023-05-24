@@ -43,6 +43,8 @@ Please refer to the source code comments for detailed explanations of each funct
 
 ### Model checking
 
+Both the `bmc` and `chc` model checkers did not detect any warnings.
+
 ```sh
 $ uname -a
 
