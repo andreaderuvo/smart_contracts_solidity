@@ -79,9 +79,10 @@ This smart contract facilitates the auction process for a collection of tokens. 
 
 The contract requires a version of Solidity between 0.8.2 (inclusive) and 0.9.0 (exclusive).
 
-## License
+License
+-------
 
-This contract is licensed under the GNU General Public License v3.0. Please see the [LICENSE](LICENSE) file for more information.
+This contract is licensed under the GNU General Public License v3.0 (SPDX-License-Identifier: GPL-3.0).
 
 ## Contract Details
 
