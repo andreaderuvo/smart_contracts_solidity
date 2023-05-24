@@ -134,9 +134,9 @@ $ time solc Auction.sol --model-checker-engine bmc --model-checker-show-unproved
 
 Compiler run successful. No output generated.
 
-real	0m0,303s
-user	0m0,258s
-sys	    0m0,037s
+real    0m0,303s
+user    0m0,258s
+sys 0m0,037s
 
 $ time solc Auction.sol --model-checker-engine chc --model-checker-show-unproved --model-checker-targets all --model-checker-invariants all
 
@@ -210,7 +210,7 @@ Warning: CHC: Overflow (resulting value larger than 2**255 - 1) might happen her
 
     |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-real	0m3,020s
-user	0m2,887s
-sys     0m0,122s
+real    0m3,020s
+user    0m2,887s
+sys 0m0,122s
 ```
